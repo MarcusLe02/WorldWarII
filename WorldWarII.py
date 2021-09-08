@@ -337,7 +337,7 @@ def printIt2(text):
     for character in text + '\n':
             sys.stdout.write(character)
             sys.stdout.flush()
-            time.sleep(1/25)
+            time.sleep(1/30)
 
 def beginning():
     """
